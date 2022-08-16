@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    margin: 0px;
 }
 
 /* Container */
@@ -41,6 +42,8 @@ body {
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start:0px;
+
 }
 
 .list-item-inline {
@@ -122,8 +125,4 @@ footer{
 
 .footer .link {
     color: darkblue;
-}
-
-.footer ul {
-    padding-inline-start: 0px;
 }
